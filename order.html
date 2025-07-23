@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Order Form</title>
+    <script src="../JAVASCRIPT/script.js" ></script>
+</head>
+<body>
+<div id="custom-alert" class="custom-alert">
+    <span id="alert-message"></span>
+</div>
+<div class="overlay"></div>
+<div class="book">
+    <form id="orderForm" action="" method="POST" onsubmit="return validateForm3()">
+        <input type="text" id="name" class="box" name="name" placeholder="Your Name">
+        <input type="email" id="email" class="box" name="email" placeholder="Your Email">
+        <select id="coffee" class="box" name="coffee">
+            <option value="" disabled selected>Choose Your Coffee</option>
+            <option value="caramel-bliss-latte">Caramel Bliss Latte</option>
+            <option value="vanilla-dream-espresso">Vanilla Dream Espresso</option>
+            <option value="hazelnut-delight-mocha">Hazelnut Delight Mocha</option>
+            <option value="cinnamon-spice-brew">Cinnamon Spice Brew</option>
+            <option value="dark-roast-elegance">Dark Roast Elegance</option>
+            <option value="coconut-cream-cold-brew">Coconut Cream Cold Brew</option>
+        </select>
+        <input type="number" id="quantity" class="box" name="quantity" placeholder="Quantity">
+        <textarea id="notes" class="box" name="notes" placeholder="Special Instructions (Optional)"></textarea>
+        <button class="btn" type="submit">Place Order</button>
+    </form>
+</div>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> Tunis</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Sousse</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Sfax</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Nabel</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Bizerte</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"><i class="fas fa-arrow-right"></i> home</a>
+            <a href="index.html"><i class="fas fa-arrow-right"></i> about</a>
+            <a href="index.html"><i class="fas fa-arrow-right"></i> menu</a>
+            <a href="index.html"><i class="fas fa-arrow-right"></i> review</a>
+
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i> +216 55 877 551</a>
+            <a href="#"><i class="fas fa-phone"></i> +216 71 500 500</a>
+            <a href="#"><i class="fas fa-envelope"></i> coffee@gmail.com</a>
+            <a href="#"><i class="fas fa-envelope"></i> Morneg, Ben Arouss</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+        </div>
+    </div>
+
+    <div class="credit">created by <span>kefi moetaz</span> | all rights reserved</div>
+</section>
+
+</body>
+
+</html>
