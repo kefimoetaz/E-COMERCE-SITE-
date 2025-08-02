@@ -79,7 +79,7 @@ npm install express mongoose bcryptjs jsonwebtoken cors body-parser dotenv
 3. Create a `.env` file with the following variables:
 ```env
 MONGODB_URI=mongodb://localhost:27017/coffee_shop
-JWT_SECRET=your-secret-key-here
+JWT_SECRET=15852
 PORT=5000
 ```
 
@@ -175,5 +175,6 @@ For support or inquiries:
 - Location: Tunis, Ben Arouss
 
 ---
+
 
 *Enjoy your coffee experience! ☕*
